@@ -1,0 +1,179 @@
+/*
+Mobile Stying
+*/
+
+@media only screen and (max-width: 1199px) {
+	body.custom-background { 
+	  background: none; 
+	 }
+
+	.site-content {
+		background: rgba(255,255,255,1.0) !important;
+	}	
+
+	.site-header {
+		width: 100%;
+	}	
+
+	.site-branding {
+		width: 100%;
+	}	
+
+	#content {
+		width: 100%;
+	}	
+
+	.site-content {
+		width: 100%;
+	}	
+
+	.site-footer {
+		width: 100%;
+	}	
+
+	.site-info {
+		width: 100%;
+	}	
+
+	#fp-content-wrapper {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 799px) {
+	.content-area {
+		width: 100%;
+	}
+
+	aside#secondary {
+		width: 100%;
+	}	
+
+	.site-logo {
+		position: static;
+		margin: 10px auto 10px auto;
+		max-width: 220px;
+	}	
+
+	.header-top-right {
+		position: static;
+		margin: 0px auto 0px auto;
+		max-width: 220px;
+		text-align: center;
+	}	
+
+	.header-top-right p {
+		margin: 0px;
+		padding: 0px;
+	}	
+
+	.header-top-right img {
+		display: none;
+	}	
+
+	h1.entry-title {font-size: 28px; }	
+
+	h1.ctd-home-title {font-size: 28px; padding: 30px 5px 0px 5px;}
+
+	p.ctd-overlay-subtitle {font-size: 14px !important; padding-bottom: 0px !important;}
+
+	p.ctd-overlay-midline {font-size: 22px !important;}
+
+	p.ctd-overlay-button {}	
+
+	#ctd-featured-services {
+		width: 100%;
+	}	
+
+	.ctd-featured-content, .ctd-featured-content-last {
+		width: 95%;
+		margin: 0px auto 50px auto;
+		padding-bottom: 20px;
+		float: none;
+		border-right: none;
+		border-bottom: 1px solid #C7C7C7;
+	}	
+
+	.ctd-featured-content-last {
+		margin-bottom: 10px;
+	}	
+
+	#ctd-featured-contact {
+		width: 95%;
+		margin: 0px auto 30px auto;	
+	}	
+
+	.ctd-featured-contact-left {
+		width: 100%;
+		float: none;
+		margin: 0px auto 45px auto;
+		padding: 0px 20px;
+	}	
+
+	.ctd-featured-contact-right {
+		width: 100%;
+		float: none;
+		margin: auto;
+		border: none;
+		padding: 0px 20px;
+	}	
+
+	.ninja-forms-all-fields-wrap {
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 0px auto 0px auto;
+	}	
+
+	.site-info {
+		width: 100%;
+	}	
+
+	.tw1, .tw2, .tw3 {
+		width: 95%;
+		margin: 0px auto 80px auto;
+		border: none;
+		float: none;
+	}	
+
+	.site-info img {
+		max-width: 220px;
+	}	
+
+	.ctd-search {
+		width: 250px;
+	}	
+
+	.egs-price-package {
+		margin-bottom: 45px !important;
+	}	
+
+	.egs-price-package, .egs-price-package-last {
+		width: 95%;
+		margin: auto;
+		float: none;
+	}	
+
+	#egs-contact-wrapper {
+		width: 100%;
+	}	
+
+	#egs-contact-page-left {
+		width: 95%;
+		float: none;
+		margin: 0px auto 60px auto;	
+	}	
+
+	#egs-contact-page-right {
+		width: 95%;
+		float: none;
+		margin: auto;	
+	}
+}
+
+@media only screen and (max-width: 399px) {
+	h1.ctd-home-title {font-size: 24px; padding: 30px 5px 0px 5px;}
+	p.ctd-overlay-subtitle {font-size: 14px !important; padding-bottom: 0px !important;}
+	p.ctd-overlay-midline {font-size: 18px !important;}
+	p.ctd-overlay-button {}	
+}

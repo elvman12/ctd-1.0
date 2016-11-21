@@ -1,0 +1,30 @@
+#1D6E91 Primary Blue
+#1b6c90
+
+#824D37 Complimentary Brown
+
+#ff6b43 Highlight Orange
+
+
+
+** Sidebar Widget
+
+Website Consultations
+
+<img src="http://localhost/ctdlocal/wp-content/uploads/2016/09/wp-dkblue-orange.jpg">
+<p>We offer consultation and coaching sessions for clients who want to learn to manage their own site!</p>
+
+** Sidebar Widget
+
+Photography Services
+<img class="full" src="http://localhost/ctdlocal/wp-content/uploads/2015/07/photoservices.jpg">
+<p>Don't forget to ask about our imaging services for your small business.</p>
+
+** Sidebar Widget
+
+About Me
+<div id="ctd-me-widget">
+<img class="alignleft" src="http://www.clicktimedesign.com/wp-content/uploads/2015/07/denver-web-designer.jpg" alt="Your Denver Web Designer - Elvis Sherman, Click Time Design" />
+
+Web Designer and Managing Director, Elvis, has been a computer and technology professional for the past fifteen years. I have however, enjoyed technology and computers for a lot longer than that.... 
+</div>
