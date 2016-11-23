@@ -40,26 +40,28 @@
 		?> 
         </div>
         
-        <div id="ctd-random-quote" style="text-align:center; font-size:13px; line-height:5px; margin-bottom:40px;">
+        <?php echo do_shortcode("[newshort]"); ?>
+        
+        <!--<div id="ctd-random-quote" style="text-align:center; font-size:13px; line-height:5px; margin-bottom:40px;">-->
     	<?php
-		$args=array('post_type'=>'quote', 'orderby'=>'rand', 'posts_per_page'=>'1');
+		//$args=array('post_type'=>'quote', 'orderby'=>'rand', 'posts_per_page'=>'1');
 
-		$randomquote=new WP_Query($args);
-		while ($randomquote->have_posts()) : $randomquote->the_post();
-			$ctd_newtitle = get_the_title();
-			$ctd_newtitle = preg_replace("/\([^)]+\)/","",$ctd_newtitle);
-			$ctd_newtitle = str_replace(" &nbsp;&nbsp;", '', $ctd_newtitle);
+		//$randomquote=new WP_Query($args);
+		//while ($randomquote->have_posts()) : $randomquote->the_post();
+			//$ctd_newtitle = get_the_title();
+			//$ctd_newtitle = preg_replace("/\([^)]+\)/","",$ctd_newtitle);
+			//$ctd_newtitle = str_replace(" &nbsp;&nbsp;", '', $ctd_newtitle);
 			
 		
-			?><p style="font-weight:bold;"><?php echo '"' . $ctd_newtitle . '"'; //the_title('"','"');?></a></p>
-            <?php $authorname = get_post_meta( $post->ID,'author-box-text',true); ?>
-            <?php echo "-- " . $authorname;?>
+			?><!--<p style="font-weight:bold;"><?php //echo '"' . $ctd_newtitle . '"'; //the_title('"','"');?></p>-->
+            <?php //$authorname = get_post_meta( $post->ID,'author-box-text',true); ?>
+            <?php //echo "-- " . $authorname;?>
         <?php    
-		endwhile;
-		wp_reset_postdata();
+		//endwhile;
+		//wp_reset_postdata();
 		?>
 		
-    </div>   
+    <!--</div>-->
 
 </div><!-- #page -->
 
