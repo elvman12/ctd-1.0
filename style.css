@@ -563,6 +563,11 @@ hr.style-four {
 	text-align: left !important;
 }
 
+.rqd-container p.rqd-quote {
+	font-weight: bold;
+	padding-top: 15px !important;
+}
+
 /*--------------------------------------------------------------
 # Home Page (front-page.php)
 --------------------------------------------------------------*/
