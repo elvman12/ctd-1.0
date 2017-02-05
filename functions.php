@@ -64,7 +64,7 @@ function clicktimedesign_setup() {
 		'comment-list',
 		'gallery',
 		'caption',
-	) );	
+	) );
 
 	// Set up the WordPress core custom background feature.
 
@@ -105,7 +105,7 @@ function clicktimedesign_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
-	) );	
+	) );
 
 	register_sidebar( array(
 		'name'          => 'Header Top Right',
@@ -115,7 +115,7 @@ function clicktimedesign_widgets_init() {
 		'after_widget'  => '',
 		'before_title'  => '',
 		'after_title'   => '',
-	) );	
+	) );
 
 	register_sidebar( array(
 		'name'          => 'Header Bottom Right',
@@ -125,7 +125,7 @@ function clicktimedesign_widgets_init() {
 		'after_widget'  => '',
 		'before_title'  => '',
 		'after_title'   => '',
-	) );	
+	) );
 
 	register_sidebar( array(
 		'name'          => 'After Single Content',
@@ -135,7 +135,7 @@ function clicktimedesign_widgets_init() {
 		'after_widget'  => '</div>',
 		'before_title'  => '<h3 class="ctd-after-content">',
 		'after_title'   => '</h3>',
-	) );	
+	) );
 
 	register_sidebar( array(
 		'name'          => 'Footer One',
@@ -145,7 +145,7 @@ function clicktimedesign_widgets_init() {
 		'after_widget'  => '',
 		'before_title'  => '<h3 class="footer-one">',
 		'after_title'   => '</h3>',
-	) );	
+	) );
 
 	register_sidebar( array(
 		'name'          => 'Footer Two',
@@ -155,7 +155,7 @@ function clicktimedesign_widgets_init() {
 		'after_widget'  => '',
 		'before_title'  => '<h3 class="footer-one">',
 		'after_title'   => '</h3>',
-	) );	
+	) );
 
 	register_sidebar( array(
 		'name'          => 'Footer Three',
@@ -180,11 +180,18 @@ add_theme_support( 'post-formats', array( 'standard', 'gallery' ) );
 
 function clicktimedesign_scripts() {
 
-	wp_enqueue_style( 'clicktimedesign-style', get_stylesheet_uri() );	
+	wp_enqueue_style( 'clicktimedesign-style', get_stylesheet_uri() );
 
-	//wp_enqueue_style( 'mobile', get_template_directory_uri() . '/css/mobile.css', array(), '1.0', 'all' );		
-
-	//wp_enqueue_script( 'clicktimedesign-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+// Move Jetpack Sharing Icons
+function jptweak_remove_share() {
+    remove_filter( 'the_content', 'sharing_display',19 );
+    remove_filter( 'the_excerpt', 'sharing_display',19 );
+    if ( class_exists( 'Jetpack_Likes' ) ) {
+        remove_filter( 'the_content', array( Jetpack_Likes::init(), 'post_likes' ), 30, 1 );
+    }
+}
+add_action( 'loop_start', 'jptweak_remove_share' );
+// End Jetpack
 
 	wp_enqueue_script( 'clicktimedesign-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

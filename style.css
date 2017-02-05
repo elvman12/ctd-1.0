@@ -62,8 +62,8 @@ textarea {
 	line-height: 1.5;
 }
 
-body.custom-background { 
-  background: url('http://www.clicktimedesign.com/wp-content/uploads/2016/03/main-bground8.jpg') no-repeat center center fixed; 
+body.custom-background {
+  background: url('http://www.clicktimedesign.com/wp-content/uploads/2016/03/main-bground8.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -230,7 +230,7 @@ table {
 #content {
 	width: 1200px;
 	margin: auto;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
 }
 
 .site-content {
@@ -298,7 +298,7 @@ aside#secondary {
 #ctd-copyright {
 	padding: 20px 0px;
 	text-align: center;
-	font-size: 13px;	
+	font-size: 13px;
 }
 
 #ctd-copyright a {
@@ -306,7 +306,7 @@ aside#secondary {
 }
 
 #ctd-copyright a:hover {
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 h1.entry-title {
@@ -333,7 +333,7 @@ hr.style-four {
 
 #egs-request-wrapper {
 	padding: 10px 15px !important;
-	background: #224b63 !important;	
+	background: #224b63 !important;
 }
 
 #egs-request-wrapper label, #egs-request-wrapper p {
@@ -350,7 +350,7 @@ hr.style-four {
 	margin: auto;
 	position: relative;
 	/*background: rgba(153,153,102,1);
-	background: #fff;*/	
+	background: #fff;*/
 }
 
 .header-top-right {
@@ -396,11 +396,11 @@ hr.style-four {
 	width: 88%;
     height: 35px;
     padding: 0px 10px;
-    float: left;   
+    float: left;
     font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
     border: 1px solid #999;;
     background: #fff;
-    border-radius: 3px 0 0 3px;	
+    border-radius: 3px 0 0 3px;
 }
 
 .header-bottom-right input:focus, .ctd-search input:focus{
@@ -448,11 +448,11 @@ hr.style-four {
 }
 
 .header-bottom-right input[type="submit"], .ctd-search input[type="submit"] {
-	background-color: transparent;	
+	background-color: transparent;
 }
 
 .header-bottom-right input[type="submit"]:hover, .ctd-search input[type="submit"]:hover {
-	background-color: transparent;	
+	background-color: transparent;
 }
 
 .header-bottom-right input.search-submit:hover, .ctd-search input.search-submit:hover {
@@ -462,9 +462,9 @@ hr.style-four {
 .header-bottom-right input.search-submit:active,
 .header-bottom-right input.search-submit:focus,
 .ctd-search input.search-submit:active,
-.ctd-search input.search-submit:focus { 
+.ctd-search input.search-submit:focus {
     /*background: #c42f2f;*/
-    outline: 0; 
+    outline: 0;
 }
 
 .header-bottom-right input.search-submit:before, .ctd-search input.search-submit:before { /* left arrow */
@@ -486,7 +486,7 @@ hr.style-four {
 .ctd-search input.search-submit:focus:before,
 .ctd-search input.search-submit:active:before {
         /*border-right-color: #c42f2f;*/
-}  
+}
 
 .header-bottom-right input.search-submit::-moz-focus-inner, .ctd-search input.search-submit::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
     border: 0;
@@ -498,7 +498,7 @@ hr.style-four {
 	height: auto;
 	position: absolute;
 	top: 10px;
-	left: 0px;	
+	left: 0px;
 }
 
 #site-navigation {
@@ -535,19 +535,19 @@ hr.style-four {
 }
 
 #secondary .widget img.full {
-	width: 100%;	
+	width: 100%;
 }
 
 .feedzy-rss ul li {
-	padding: 10px 15px !important;	
+	padding: 10px 15px !important;
 }
 
 .feedzy-rss ul li a {
-	font-size: 13px;	
+	font-size: 13px;
 }
 
 .feedzy-rss ul li a:hover {
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 #ctd-me-widget {
@@ -575,8 +575,8 @@ hr.style-four {
 #ctd-home-image {
 	width: 100%;
 	height: 400px;
-	background: url('http://www.clicktimedesign.com/wp-content/uploads/2016/03/denver-background2.jpg'); 
-	border-bottom: 3px solid #2890be;	
+	background: url('http://www.clicktimedesign.com/wp-content/uploads/2016/03/denver-background2.jpg');
+	border-bottom: 3px solid #2890be;
 }
 
 #ctd-home-overlay {
@@ -592,7 +592,7 @@ h1.ctd-home-title {
 	font-size: 40px;
 	font-weight: bold;
 	margin: 0px 0px 0px 0px;
-	padding: 55px 0px 0px 0px;	
+	padding: 55px 0px 0px 0px;
 }
 
 #ctd-home-overlay p {
@@ -603,13 +603,13 @@ h1.ctd-home-title {
 }
 
 p.ctd-overlay-subtitle {
-	margin-bottom: 50px !important;	
+	margin-bottom: 50px !important;
 }
 
 p.ctd-overlay-midline {
 	font-size: 28px !important;
 	font-weight: bold;
-	margin-bottom: 70px !important;	
+	margin-bottom: 70px !important;
 }
 
 p.ctd-overlay-button {
@@ -620,7 +620,7 @@ p.ctd-overlay-button {
 	margin: auto !important;
 	border: 2px solid #fff;
 	background: rgba(255,102,0,0.8);
-	text-align: center !important;	
+	text-align: center !important;
 }
 
 p.ctd-overlay-button:hover {
@@ -716,16 +716,16 @@ p.ctd-overlay-button:hover {
 	margin-bottom: 40px;
 	overflow: auto;
 	/*border: 1px solid #fff;*/
-	/*border: 1px solid #C7C7C7;*/	
+	/*border: 1px solid #C7C7C7;*/
 }
 
 .ctd-blog-entry img {
 	float: left;
-	margin: 8px 15px 5px 15px;	
+	margin: 8px 15px 5px 15px;
 }
 
 .ctd-blog-entry .ctd-read-more {
-	text-align: left;	
+	text-align: left;
 }
 
 .ctd-blog-entry p, .ctd-featured-blog p {
@@ -747,7 +747,7 @@ p.ctd-overlay-button:hover {
 .spacer30 {
 	width: 100%;
 	height: 30px;
-	clear: both;	
+	clear: both;
 }
 
 h1.ctd-blog-title {
@@ -761,7 +761,7 @@ h1.ctd-blog-title {
 
 .ctd-read-more {
 	text-align: center;
-	margin: 0px 0px 15px 0px;	
+	margin: 0px 0px 15px 0px;
 }
 
 a.blogroll-more {
@@ -779,7 +779,7 @@ a.blogroll-more:hover {
 
 .posted-on {
 	padding: 0px 0px 10px 0px;
-	border-bottom: 3px solid #C7C7C7;	
+	border-bottom: 3px solid #C7C7C7;
 }
 
 .entry-content a {
@@ -787,7 +787,7 @@ a.blogroll-more:hover {
 }
 
 .entry-content a:hover {
-	color: #ff6b43;	
+	color: #ff6b43;
 }
 
 .page-links a {
@@ -797,14 +797,14 @@ a.blogroll-more:hover {
 
 .page-links a:hover {
 	background: #ff6b43;
-	color: #fff;	
+	color: #fff;
 }
 
 .nav-links {
 	overflow: auto;
 	padding: 10px;
 	border-top: 1px solid #C7C7C7;
-	border-bottom: 1px solid #C7C7C7; 	
+	border-bottom: 1px solid #C7C7C7;
 }
 
 .nav-links a {
@@ -833,7 +833,7 @@ a.blogroll-more:hover {
 }
 
 .entry-summary {
-	margin: 0px !important;	
+	margin: 0px !important;
 }
 
 .ctd-search-title h2.entry-title {
@@ -860,7 +860,7 @@ a.blogroll-more:hover {
 # FAQ Page Stuff
 --------------------------------------------------------------*/
 .ui-accordion {
-	background: transparent !important;	
+	background: transparent !important;
 }
 
 .accordions-head {
@@ -874,7 +874,7 @@ a.blogroll-more:hover {
 
 .ui-accordion-header-active {
 	background: #1D6E91 !important;
-	color: #fff !important;	
+	color: #fff !important;
 }
 
 .ui-accordion-content-active {
@@ -882,7 +882,7 @@ a.blogroll-more:hover {
 }
 
 .accordion-minus {
-	color: #fff !important;	
+	color: #fff !important;
 }
 
 /*--------------------------------------------------------------
@@ -920,7 +920,7 @@ a.blogroll-more:hover {
 }
 
 .egs-price-package ul, .egs-price-package-last ul, .egs-price-package-full ul {
-	padding: 0px 15px;	
+	padding: 0px 15px;
 }
 
 .egs-price-package ul li, .egs-price-package-last ul li, .egs-price-package-full ul li {
@@ -935,7 +935,7 @@ a.blogroll-more:hover {
 	margin: 0px 40px 25px 0px;
 	background: transparent;
 	border: 1px solid #C7C7C7;
-	padding: 0px 0px 15px 0px;	
+	padding: 0px 0px 15px 0px;
 }
 
 .egs-price-package-full h2 {
@@ -946,7 +946,7 @@ a.blogroll-more:hover {
 # Contact Page Stuff
 --------------------------------------------------------------*/
 #egs-contact-wrapper {
-	width: 100%;	
+	width: 100%;
 }
 
 #egs-contact-page-left {
@@ -967,7 +967,7 @@ a.blogroll-more:hover {
 }
 
 textarea {
-	resize: none;	
+	resize: none;
 }
 
 /*--------------------------------------------------------------
@@ -1123,7 +1123,7 @@ a:active {
 
 .main-navigation a {
 	display: block;
-	text-decoration: none;	
+	text-decoration: none;
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
@@ -1138,7 +1138,7 @@ a:active {
 	position: absolute;
 	top: 1.5em;
 	left: -999em;
-	z-index: 99999;	
+	z-index: 99999;
 	background: #fff;
 	padding-top: 0px;
 	margin-top: -2px;
@@ -1206,7 +1206,7 @@ a:active {
 	.menu-toggle {
 		display: none;
 	}
-	
+
 	.main-navigation ul {
 		display: block;
 	}
@@ -1404,6 +1404,10 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.sd-content ul li {
+	margin: 0px 20px 5px 0px !important;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1527,37 +1531,37 @@ object {
 *************************************/
 
 @media only screen and (max-width: 1199px) {
-	body.custom-background { 
-	  background: none; 
+	body.custom-background {
+	  background: none;
 	 }
 
 	.site-content {
 		background: rgba(255,255,255,1.0) !important;
-	}	
+	}
 
 	.site-header {
 		width: 100%;
-	}	
+	}
 
 	.site-branding {
 		width: 100%;
-	}	
+	}
 
 	#content {
 		width: 100%;
-	}	
+	}
 
 	.site-content {
 		width: 100%;
-	}	
+	}
 
 	.site-footer {
 		width: 100%;
-	}	
+	}
 
 	.site-info {
 		width: 100%;
-	}	
+	}
 
 	#fp-content-wrapper {
 		width: 100%;
@@ -1572,31 +1576,31 @@ object {
 
 	aside#secondary {
 		width: 100%;
-	}	
+	}
 
 	.site-logo {
 		position: static;
 		margin: 10px auto 10px auto;
 		max-width: 220px;
-	}	
+	}
 
 	.header-top-right {
 		position: static;
 		margin: 0px auto 0px auto;
 		max-width: 220px;
 		text-align: center;
-	}	
+	}
 
 	.header-top-right p {
 		margin: 0px;
 		padding: 0px;
-	}	
+	}
 
 	.header-top-right img {
 		display: none;
-	}	
+	}
 
-	h1.entry-title {font-size: 28px; }	
+	h1.entry-title {font-size: 28px; }
 
 	h1.ctd-home-title {font-size: 28px; padding: 30px 5px 0px 5px;}
 
@@ -1604,11 +1608,11 @@ object {
 
 	p.ctd-overlay-midline {font-size: 22px !important;}
 
-	p.ctd-overlay-button {}	
+	p.ctd-overlay-button {}
 
 	#ctd-featured-services {
 		width: 100%;
-	}	
+	}
 
 	.ctd-featured-content, .ctd-featured-content-last {
 		width: 95%;
@@ -1617,23 +1621,23 @@ object {
 		float: none;
 		border-right: none;
 		border-bottom: 1px solid #C7C7C7;
-	}	
+	}
 
 	.ctd-featured-content-last {
 		margin-bottom: 10px;
-	}	
+	}
 
 	#ctd-featured-contact {
 		width: 95%;
-		margin: 0px auto 30px auto;	
-	}	
+		margin: 0px auto 30px auto;
+	}
 
 	.ctd-featured-contact-left {
 		width: 100%;
 		float: none;
 		margin: 0px auto 45px auto;
 		padding: 0px 20px;
-	}	
+	}
 
 	.ctd-featured-contact-right {
 		width: 100%;
@@ -1641,57 +1645,57 @@ object {
 		margin: auto;
 		border: none;
 		padding: 0px 20px;
-	}	
+	}
 
 	.ninja-forms-all-fields-wrap {
 		width: 100% !important;
 		padding: 0px !important;
 		margin: 0px auto 0px auto;
-	}	
+	}
 
 	.site-info {
 		width: 100%;
-	}	
+	}
 
 	.tw1, .tw2, .tw3 {
 		width: 95%;
 		margin: 0px auto 80px auto;
 		border: none;
 		float: none;
-	}	
+	}
 
 	.site-info img {
 		max-width: 220px;
-	}	
+	}
 
 	.ctd-search {
 		width: 250px;
-	}	
+	}
 
 	.egs-price-package {
 		margin-bottom: 45px !important;
-	}	
+	}
 
 	.egs-price-package, .egs-price-package-last {
 		width: 95%;
 		margin: auto;
 		float: none;
-	}	
+	}
 
 	#egs-contact-wrapper {
 		width: 100%;
-	}	
+	}
 
 	#egs-contact-page-left {
 		width: 95%;
 		float: none;
-		margin: 0px auto 60px auto;	
-	}	
+		margin: 0px auto 60px auto;
+	}
 
 	#egs-contact-page-right {
 		width: 95%;
 		float: none;
-		margin: auto;	
+		margin: auto;
 	}
 }
 
@@ -1699,5 +1703,5 @@ object {
 	h1.ctd-home-title {font-size: 24px; padding: 30px 5px 0px 5px;}
 	p.ctd-overlay-subtitle {font-size: 14px !important; padding-bottom: 0px !important;}
 	p.ctd-overlay-midline {font-size: 18px !important;}
-	p.ctd-overlay-button {}	
+	p.ctd-overlay-button {}
 }
