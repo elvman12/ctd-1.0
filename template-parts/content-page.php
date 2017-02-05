@@ -16,6 +16,17 @@
 
 	<div class="entry-content">
 		<?php
+			// Insert Jetpack
+			if ( function_exists( 'sharing_display' ) ) {
+				sharing_display( '', true );
+			}
+
+			if ( class_exists( 'Jetpack_Likes' ) ) {
+				$custom_likes = new Jetpack_Likes;
+				echo $custom_likes->post_likes( '' );
+			}
+			// End Jetpack
+
 			the_post_thumbnail();  /* EGS Modification to show featured image*/
 			the_content();
 

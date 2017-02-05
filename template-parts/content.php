@@ -28,7 +28,20 @@
 
 	<div class="entry-content">
 		<?php
+			// Insert Jetpack
+			if ( function_exists( 'sharing_display' ) ) {
+				sharing_display( '', true );
+			}
+
+			if ( class_exists( 'Jetpack_Likes' ) ) {
+				$custom_likes = new Jetpack_Likes;
+				echo $custom_likes->post_likes( '' );
+			}
+			// End Jetpack
+
 			the_post_thumbnail();
+
+
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'clicktimedesign' ), array( 'span' => array( 'class' => array() ) ) ),
