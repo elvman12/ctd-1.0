@@ -1707,6 +1707,12 @@ object {
 		float: none;
 		margin: auto;
 	}
+
+	.egs-one-third {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 399px) {
