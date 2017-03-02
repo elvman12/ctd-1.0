@@ -341,6 +341,15 @@ hr.style-four {
 	color: #fff;
 }
 
+.egs-one-third {
+	width: 28%;
+	float: left;
+}
+
+.egs-one-third ul {
+	list-style-image: url('http://www.clicktimedesign.com/wp-content/uploads/2015/12/checkmark.png');
+}
+
 /*--------------------------------------------------------------
 # Header Content
 --------------------------------------------------------------*/
